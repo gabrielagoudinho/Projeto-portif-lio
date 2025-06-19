@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio da Gabriela</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/foto-perfil.jpeg" alt="foto da Gabriela" class="rounded-circle" width="150" height="150" />
+        <h1>Gabriela</h1>
+        <p class="lead">Sou Gabriela, casada e atuando na área de Pedagogia Hospitalar. Trago da minha experiência como professora de Artes, criativa e humana para lidar com o processo de aprendizagem dos alunos em ambientes hospitalares. Acredito na arte como ferramenta de cura e ensino, e encontro no teatro e no acolhimento um caminho para tocar vidas.</p>
+        <div class="mt-3">
+            <h5>Habilidades</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item badge bg-primary">Comunicativa</li>
+                <li class="list-inline-item badge bg-secondary">Proativa</li>
+                <li class="list-inline-item badge bg-success">Adaptável</li>
+                <li class="list-inline-item badge bg-warning text-dark">Criativa</li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/foto-projeto-1.jpeg" class="card-img-top" alt="Imagem do projeto de arte interativa">
+                    <div class="card-body">
+                        <h5 class="card-title">Cores da Empatia</h5>
+                        <p class="card-text">Projeto artístico-pedagógico que usa cores, formas e sensações para estimular o acolhimento em ambientes hospitalares.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/foto-projeto-2.jpeg" class="card-img-top" alt="Imagem do projeto de teatro educativo">
+                    <div class="card-body">
+                        <h5 class="card-title">Teatro & Aprendizagem</h5>
+                        <p class="card-text">Peças teatrais curtas encenadas em hospitais com objetivo de ensinar e entreter ao mesmo tempo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/foto-projeto-3.jpeg" class="card-img-top" alt="Imagem do projeto diário das emoções">
+                    <div class="card-body">
+                        <h5 class="card-title">Diário das Emoções</h5>
+                        <p class="card-text">Uma ferramenta criativa que ajuda os alunos a expressarem sentimentos durante o tratamento hospitalar.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cores da Empatia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Um projeto sensorial que trabalha a empatia e o acolhimento através de instalações artísticas em ambientes hospitalares.</p>
+                <img src="img/foto-projeto-1.jpeg" alt="Imagem representativa do projeto Cores da Empatia">
+                <div class="alert alert-info mt-3" role="alert">
+                    <strong>Sobre o projeto:</strong> Conheça mais detalhes sobre como as cores e os sentidos são usados para humanizar o ambiente hospitalar e promover bem-estar emocional. Utilizando tecidos translúcidos, aromas suaves e sons ambientes, a proposta é tornar o espaço hospitalar mais acolhedor e sensível às necessidades emocionais dos pacientes.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Teatro & Aprendizagem</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Integra o teatro ao currículo pedagógico hospitalar como forma de engajamento e leveza no processo educativo.</p>
+                <img src="img/foto-projeto-2.jpeg" alt="Imagem representativa do projeto Teatro & Aprendizagem">
+                <div class="alert alert-info mt-3" role="alert">
+                    <strong>Sobre o projeto:</strong> Saiba como o teatro pode ser uma poderosa ferramenta didática e terapêutica dentro da pedagogia hospitalar. As encenações ajudam a transmitir conteúdos escolares, lidar com emoções e promover empatia, transformando o momento do aprendizado em uma experiência lúdica e acolhedora.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Diário das Emoções</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Ferramenta terapêutica e educacional com desenhos, colagens e escrita guiada para ajudar a expressar o emocional no dia a dia hospitalar.</p>
+                <img src="img/foto-projeto-3.jpeg" alt="Imagem representativa do projeto Diário das Emoções">
+                <div class="alert alert-info mt-3" role="alert">
+                    <strong>Sobre o projeto:</strong> Entenda como o uso do diário pode apoiar o desenvolvimento emocional e o vínculo afetivo entre alunos e educadores. A proposta estimula a expressão dos sentimentos por meio da arte e escrita, ajudando no enfrentamento do tratamento médico e fortalecendo a autoestima.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/gabipedagogia" target="_blank">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Gabriela</p>
+    </footer>
+</body>
+
+</html>
